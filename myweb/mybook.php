@@ -78,7 +78,7 @@
                   </div>
                   <textarea name="comment" class="massage_box" form="usrform">Comment</textarea> -->
 
-                  <form action="process_form.php" method="POST" id="usrform">
+                  <form action="process_form.php" method="POST" enctype="multipart/form-data">
                     <div class="row">
                     <div class="col-md-6">
                     <input type="text" class="input_text" placeholder="Name" name="namebook">
