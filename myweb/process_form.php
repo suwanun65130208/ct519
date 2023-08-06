@@ -11,8 +11,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    
 
    $servername = "mariadb";
-   $username = "suwanun";
-   $password = "suwanun";
+   $username = "root";
+   $password = "";
    $database="mybooksuwanun";
    // Create connection
    $conn = new mysqli($servername, $username, $password,$database);
