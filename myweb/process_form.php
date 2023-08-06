@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
    // Validate and sanitize the data (you can add more validation if needed)
    
-   $servername = "mariadb";
+   $servername = "db";
    $username = "suwanun";
    $password = "suwanun";
    $database="mybooksuwanun";
